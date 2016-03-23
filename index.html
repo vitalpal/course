@@ -94,12 +94,13 @@ background-position: center !important;">
         <h2 class="section-title">{{site.data.homepage.about.title}}</h2>
         <h3 class="letter-title">{{site.data.homepage.about.subtitle}}</h3>
         <p>{{site.data.homepage.about.first_paragraph}}</p><br>
+        
           <div class="row">
             <div class="col-lg-12 col-md-12">
               <br><br><br><br><h2 class="section-title">{{site.data.homepage.about.bonus}}</h2>
-              <div class="row bonuses">
+              <div class="row about">
                 <div class="col-sm-12">
-                  {% for bonus in site.data.homepage.bonuses %}
+                  {% for bonus in site.data.homepage.about %}
                   <div class="point col-sm-4">
                     <div class="point-title text-center">{{ bonus.logo }}</div>
                     <div class="point-description text-center">{{ bonus.text }} </div>
@@ -109,6 +110,7 @@ background-position: center !important;">
                 </div>
               </div>
             </div>
+        
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
             </div>
