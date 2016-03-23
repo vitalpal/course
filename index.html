@@ -96,22 +96,6 @@ background-position: center !important;">
 
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th>Month</th>
-                      <th>Revenue</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {% for income in site.data.homepage.about.income_table %}
-                        <tr>
-                          <td>{{ income.month }}</td>
-                          <td class="amount">{{ income.income }}</td>
-                        </tr>
-                    {% endfor %}
-                  </tbody>
-                </table>
             </div>
         </div><br>
 
